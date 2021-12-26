@@ -11,15 +11,13 @@ var currentHour = parseInt(moment().format("H"));
 var loadEvents = function (timeSlots) {timeSlots.forEach((element) => {
     
     let text = localStorage.getItem(parseInt(element.time));
-  
-    if (text) {
-      element.text.val(text);
+  if (text) {element.text.val(text);
     }
   });
 };
 
-var fetchEvents = function () {
-  var tempArr = [];
+var fetchEvents = function () 
+{ var tempArr = [];
  
   $("textarea").each(function (index, elem) {
     tempArr.push({
