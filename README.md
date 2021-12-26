@@ -1,5 +1,8 @@
 # challenge-5-scheduler
 
-This application is a workday planner that will help employees with time management. Using Javascript and Jqueries to store events by the hour for a typical 8-5pm workday. Text will be saved in local storage when the save button is clicked and will remain after refreshing the page. 
+This application is a workday planner that will help employees with time management. Using Javascript and Jqueries to store events by the hour for a typical 8-5pm workday. Text will be saved in local storage when the large save button icon is clicked and will remain after refreshing the page. Moment.js used to display current date at the top of the calendar.
 
 Created by Orlando Lopez
+
+Deployed website linked below. 
+
